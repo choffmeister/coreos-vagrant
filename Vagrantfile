@@ -15,10 +15,11 @@ $update_channel = "alpha"
 $enable_serial_logging = false
 $share_home = false
 $vm_gui = false
-$vm_memory = 1024
-$vm_cpus = 1
+$vm_memory = 2048
+$vm_cpus = 2
 $shared_folders = {}
 $forwarded_ports = {}
+$expose_docker_tcp = 2375
 
 # Attempt to apply the deprecated environment variable NUM_INSTANCES to
 # $num_instances while allowing config.rb to override it
